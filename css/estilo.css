@@ -1,3 +1,23 @@
 body {
-    background-color: aqua;
+    background-color: white;
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: aliceblue;}
+tr:nth-child(odd){background-color: rgb(24, 48, 68);}
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+tr:hover {
+    background-color: blue;
+    color: blueviolet;
+    size: 50px;
 }
